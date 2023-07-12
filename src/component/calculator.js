@@ -4,16 +4,16 @@ function MyComponent() {
   return (
     <div className="calc-container">
       <div className="calc-screen">0</div>
-      <button className="calc-btn" type="button">
+      <button className="calc-btn  sign-btn" type="button">
         AC
       </button>
-      <button className="calc-btn" type="button">
+      <button className="calc-btn sign-btn" type="button">
         +/-
       </button>
-      <button className="calc-btn" type="button">
+      <button className="calc-btn sign-btn" type="button">
         %
       </button>
-      <button className="calc-btn" type="button">
+      <button className="calc-btn  sign-btn" type="button">
         /
       </button>
       <button className="calc-btn" type="button">
@@ -25,7 +25,7 @@ function MyComponent() {
       <button className="calc-btn" type="button">
         9
       </button>
-      <button className="calc-btn" type="button">
+      <button className="calc-btn  sign-btn" type="button">
         *
       </button>
       <button className="calc-btn" type="button">
@@ -37,7 +37,7 @@ function MyComponent() {
       <button className="calc-btn" type="button">
         6
       </button>
-      <button className="calc-btn" type="button">
+      <button className="calc-btn sign-btn" type="button">
         -
       </button>
       <button className="calc-btn" type="button">
@@ -49,7 +49,7 @@ function MyComponent() {
       <button className="calc-btn" type="button">
         3
       </button>
-      <button className="calc-btn" type="button">
+      <button className="calc-btn sign-btn" type="button">
         +
       </button>
       <button className="calc-btn calc-btn-zero" type="button">
@@ -58,7 +58,7 @@ function MyComponent() {
       <button className="calc-btn" type="button">
         .
       </button>
-      <button className="calc-btn " type="button">
+      <button className="calc-btn sign-btn" type="button">
         =
       </button>
     </div>

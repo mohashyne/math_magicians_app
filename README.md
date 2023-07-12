@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./src/react.svg" alt="logo" width="140"  height="auto" />
+ <img src="./src/assets/react.svg" alt="logo" width="140"  height="auto" />
   <h3><b>Math Magicians</b></h3>
 </div>
 
