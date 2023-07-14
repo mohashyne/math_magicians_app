@@ -15,7 +15,7 @@
 .calc-screen {
   grid-column: span 4;
   height: 4rem;
-  max-height: 120px;
+  max-height: 150px;
   overflow-y: auto;
   display: flex;
   align-items: center;
@@ -37,9 +37,14 @@
 }
 
 .calc-btn-zero {
-  grid-column: 1 / span 2;
+  grid-column: span 2;
 }
 
 .sign-btn {
   background: #f5913e;
+}
+
+.cur-screen {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
 }

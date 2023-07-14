@@ -6,19 +6,32 @@ function MyComponent() {
   const [preScreen, setPreScreen] = useState('');
   const [curScreen, setCurScreen] = useState('0');
   const [operation, setOperation] = useState(null);
+  const [showResult, setShowResult] = useState(false);
 
   const handleButtonClick = (buttonName) => {
-    const result = calculate({ total: preScreen, next: curScreen, operation }, buttonName);
-    setPreScreen(result.total || '');
-    setCurScreen(result.next || '0');
-    setOperation(result.operation || null);
+    let result = calculate({ total: preScreen, next: curScreen, operation }, buttonName);
+
+    if (buttonName === '=') {
+      result = calculate({ total: preScreen, next: curScreen, operation }, buttonName);
+      setPreScreen('');
+      setCurScreen(result.total || '0');
+      setOperation(null);
+      setShowResult(true);
+    } else {
+      setPreScreen(result.total || '');
+      setCurScreen(result.next || '0');
+      setOperation(result.operation || null);
+      setShowResult(false);
+    }
   };
+
+  const displayScreen = showResult ? (curScreen || '0') : `${preScreen} ${operation || ''}`;
 
   return (
     <div className="calc-container">
       <div className="calc-screen">
-        <div className="pre-screen">{preScreen}</div>
-        <div className="cur-screen">{curScreen}</div>
+        <div className="pre-screen">{displayScreen}</div>
+        {!showResult && <div className="cur-screen">{curScreen}</div>}
       </div>
       <button className="calc-btn" type="button" onClick={() => handleButtonClick('AC')}>
         AC
