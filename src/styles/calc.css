@@ -15,6 +15,8 @@
 .calc-screen {
   grid-column: span 4;
   height: 4rem;
+  max-height: 120px;
+  overflow-y: auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
