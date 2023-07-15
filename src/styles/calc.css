@@ -7,7 +7,7 @@ body {
 
 .calc-container {
   position: absolute;
-  top: 65%;
+  top: 34%;
   left: 50%;
   background-color: #f0f0f0;
   transform: translate(-50%, -50%);
@@ -15,6 +15,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   padding: 1rem;
+  border: 3px solid #858694;
   border-radius: 5px;
   width: 70vh;
 }
@@ -72,10 +73,12 @@ input {
 }
 
 .quote-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #858694;
   padding: 1.2rem;
   border-radius: 5px;
   font-size: 0.9rem;
+  top: 32rem;
 }
