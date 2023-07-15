@@ -137,7 +137,7 @@ launch index.html using live server or live preview
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/mohashyne/math_magicians_appmath_magicians_app/issues">issues page</a>.
+Feel free to check the <a href="https://github.com/mohashyne/math_magicians_app/issues">issues page</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
