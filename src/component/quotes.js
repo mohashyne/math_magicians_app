@@ -10,8 +10,8 @@ function QuoteComponent() {
     const fetchQuote = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=life', {
-          headers: { 'X-Api-Key': 'jefeiaQXYarLAsPZwTWiuA==QZ0GIv61ur9IdrN2' },
+        const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=computers', {
+          headers: { 'X-Api-Key': 'uLWr6B6XskNnt1fdEm7cwA==ahtDaYsuFaZtbYcg' },
         });
         if (!response.ok) {
           throw new Error("Can't fetch");
@@ -38,7 +38,7 @@ function QuoteComponent() {
   }
 
   return (
-    <div className="quote-con">
+    <div className="quote-container">
       <h2> Quote:</h2>
       <p>{quote}</p>
       <p>{author}</p>
