@@ -63,3 +63,12 @@ input {
   border-radius: 5px;
   text-align: right;
 }
+
+/* QUOTES */
+
+.quote-con {
+  display: flex;
+  flex-direction: column;
+  background-color: #858694;
+  padding: 12px;
+}
