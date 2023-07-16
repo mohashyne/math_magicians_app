@@ -7,7 +7,7 @@ body {
 
 .calc-container {
   position: absolute;
-  top: 34%;
+  top: 35%;
   left: 50%;
   background-color: #f0f0f0;
   transform: translate(-50%, -50%);
