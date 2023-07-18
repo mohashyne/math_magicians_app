@@ -5,6 +5,26 @@ body {
   font-size: 62.5%;
 } */
 
+.calc {
+  padding: 0;
+}
+
+.math-heading {
+  position: absolute;
+  top: 24%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #f5913e;
+  text-shadow: 0 0 5px #f5913e;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  -webkit-text-stroke: 1px #858694;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #858694;
+}
+
 .calc-container {
   position: absolute;
   top: 56%;
@@ -78,15 +98,4 @@ input {
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: right;
-}
-
-.quote-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color: #858694;
-  padding: 1.2rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  top: 32rem;
 }
