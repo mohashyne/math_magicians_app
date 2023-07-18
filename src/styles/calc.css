@@ -1,14 +1,14 @@
-
+/* 
 body {
   background-color: #f0f0f0;
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
-}
+} */
 
 .calc-container {
   position: absolute;
-  top: 35%;
-  left: 50%;
+  top: 56%;
+  left: 72%;
   background-color: #f0f0f0;
   transform: translate(-50%, -50%);
   display: grid;
