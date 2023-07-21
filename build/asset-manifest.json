@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mohashyne.github.io/math_magicians_app/static/css/main.72bfe248.css",
+    "main.js": "/mohashyne.github.io/math_magicians_app/static/js/main.00f05899.js",
+    "index.html": "/mohashyne.github.io/math_magicians_app/index.html",
+    "main.72bfe248.css.map": "/mohashyne.github.io/math_magicians_app/static/css/main.72bfe248.css.map",
+    "main.00f05899.js.map": "/mohashyne.github.io/math_magicians_app/static/js/main.00f05899.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72bfe248.css",
+    "static/js/main.00f05899.js"
+  ]
+}
